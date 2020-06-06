@@ -1,4 +1,4 @@
-# infixedu
+# Agyad Schools
 
 A new Flutter application.
 
