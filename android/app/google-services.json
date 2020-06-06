@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "99390424651",
+    "firebase_url": "https://infixedu-6950a.firebaseio.com",
+    "project_id": "infixedu-6950a",
+    "storage_bucket": "infixedu-6950a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99390424651:android:58c1d8e7624bc8e3bb6fce",
+        "android_client_info": {
+          "package_name": "com.edu.infix.infixedu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99390424651-vd7t5r6b02gds0c1lefn09483sm04kef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0Hd87s7EI-saiBOPzW7jPQJq7tpn7uRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99390424651-vd7t5r6b02gds0c1lefn09483sm04kef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
