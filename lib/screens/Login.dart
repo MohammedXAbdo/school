@@ -3,6 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:infixedu/screens/AdmissionWebView.dart';
 import 'package:infixedu/utils/Utils.dart';
 import 'package:infixedu/utils/apis/Apis.dart';
 import 'package:infixedu/utils/server/Login.dart';
@@ -224,6 +225,30 @@ class _LoginScreenState extends State<LoginScreen> {
 //                            });
                           },
                         ),
+
+                        /// Admission
+                        Padding(
+                          padding: EdgeInsets.only(left:MediaQuery.of(context).size.width / 4, top:MediaQuery.of(context).size.width / 40, right:MediaQuery.of(context).size.width / 4),
+                          child: GestureDetector(
+                            child: Container(
+                              alignment: Alignment.center,
+                              width: MediaQuery.of(context).size.width / 4,
+                              height: 40.0,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15.0),
+                                color: Colors.purple,
+                              ),
+                              child: Text(
+                                'Admission',
+                                style: Theme.of(context).textTheme.headline.copyWith(
+                                    color: Colors.white
+                                ),
+                              ),
+                            ),
+                            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => AdmissionWebView())),
+                          ),
+                        ),
+
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: isResponse == true ? LinearProgressIndicator(
