@@ -1,6 +1,5 @@
 class InfixApi {
-  static String root = 'http://agyad.mpa-media.com';
-  //static String root = 'http://infixedu.com/android/';
+  static String root = 'http://agyad.mpa-media.com/';
   static String baseApi = root + 'api/';
 
   static String uploadHomework = baseApi+"add-homework";

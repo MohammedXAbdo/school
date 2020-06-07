@@ -1,35 +1,80 @@
 {
   "project_info": {
-    "project_number": "99390424651",
-    "firebase_url": "https://infixedu-6950a.firebaseio.com",
-    "project_id": "infixedu-6950a",
-    "storage_bucket": "infixedu-6950a.appspot.com"
+    "project_number": "1627932693",
+    "firebase_url": "https://agyad-school.firebaseio.com",
+    "project_id": "agyad-school",
+    "storage_bucket": "agyad-school.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:99390424651:android:58c1d8e7624bc8e3bb6fce",
+        "mobilesdk_app_id": "1:1627932693:android:79ebd7b4d167b69e14a61c",
         "android_client_info": {
-          "package_name": "com.edu.infix.infixedu"
+          "package_name": "com.mpa.agyad"
         }
       },
       "oauth_client": [
         {
-          "client_id": "99390424651-vd7t5r6b02gds0c1lefn09483sm04kef.apps.googleusercontent.com",
+          "client_id": "1627932693-qhgvqa0dpv4n2t1spc9b97kle2a9tclm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB0Hd87s7EI-saiBOPzW7jPQJq7tpn7uRg"
+          "current_key": "AIzaSyAu2PQ2WsiEYatxPIiAhWqgJ9Q1aAPKF1M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "99390424651-vd7t5r6b02gds0c1lefn09483sm04kef.apps.googleusercontent.com",
+              "client_id": "1627932693-qhgvqa0dpv4n2t1spc9b97kle2a9tclm.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1627932693-24dhbsrbroamgspk7sqr68ius2pp3p2f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mpa.agyad",
+                "app_store_id": "1516417143"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1627932693:android:501147d88a167eb714a61c",
+        "android_client_info": {
+          "package_name": "com.mpa.schools.agyad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1627932693-qhgvqa0dpv4n2t1spc9b97kle2a9tclm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu2PQ2WsiEYatxPIiAhWqgJ9Q1aAPKF1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1627932693-qhgvqa0dpv4n2t1spc9b97kle2a9tclm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1627932693-24dhbsrbroamgspk7sqr68ius2pp3p2f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mpa.agyad",
+                "app_store_id": "1516417143"
+              }
             }
           ]
         }

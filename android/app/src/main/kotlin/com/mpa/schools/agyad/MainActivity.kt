@@ -1,4 +1,4 @@
-package com.edu.infix.infixedu
+package com.mpa.schools.agyad
 
 import android.os.Bundle
 

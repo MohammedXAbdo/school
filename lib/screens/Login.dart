@@ -61,66 +61,66 @@ class _LoginScreenState extends State<LoginScreen> {
                     height: MediaQuery.of(context).size.height / 2,
                     child: ListView(
                       children: <Widget>[
-                       // Row(
-                          //children: <Widget>[
-                            //Expanded(
-                              //child: FlatButton(
-                                //onPressed: () {
-                                  //user = 'student';
-                                  //futureEmail = getEmail(user);
-                                  //futureEmail.then((value){
-                                    //setState(() {
-                                      //email = value;
-                                      //emailController.text = email;
-                                     // passwordController.text = password;
-                                   // });
-                                 // });
-                                //},
-                                //color: Colors.purpleAccent,
-                                //textColor: Colors.white,
-                                //child: Text("Student",style: Theme.of(context).textTheme.display1.copyWith(color: Colors.white),),
-                              //),
-                            //),
-                            //Expanded(
-                              //child: FlatButton(
-                                //onPressed: () {
-                                  //setState(() {
-                                    //user = 'teacher';
-                                    //futureEmail = getEmail(user);
-                                    //futureEmail.then((value){
-                                      //setState(() {
-                                        //email = value;
-                                        //emailController.text = email;
-                                        //passwordController.text = password;
-                                      //});
-                                    //});
-                                  //});
-                                //},
-                                //color: Colors.purpleAccent,
-                                //textColor: Colors.white,
-                                //child: Text("Teacher",style: Theme.of(context).textTheme.display1.copyWith(color: Colors.white)),
-                              //),
-                            //),
-                            //Expanded(
-                              //child: FlatButton(
-                                //onPressed: () {
-                                  //user = 'parent';
-                                  //futureEmail = getEmail(user);
-                                  //futureEmail.then((value){
-                                    //setState(() {
-                                  //    email = value;
-                                //      emailController.text = email;
-                              //        passwordController.text = password;
-                            //        });
-                          //        });
-                            //    },
-                           //     color: Colors.purpleAccent,
-                            //    textColor: Colors.white,
-                           //     child: Text("Parents",style: Theme.of(context).textTheme.display1.copyWith(color: Colors.white)),
-                           //   ),
-                         //   ),
-                        //  ],
-                        //),
+                        Row(
+                          children: <Widget>[
+                            Expanded(
+                              child: FlatButton(
+                                onPressed: () {
+                                  user = 'student';
+                                  futureEmail = getEmail(user);
+                                  futureEmail.then((value){
+                                    setState(() {
+                                      email = value;
+                                      emailController.text = email;
+                                      passwordController.text = password;
+                                    });
+                                  });
+                                },
+                                color: Colors.purpleAccent,
+                                textColor: Colors.white,
+                                child: Text("Student",style: Theme.of(context).textTheme.display1.copyWith(color: Colors.white),),
+                              ),
+                            ),
+                            Expanded(
+                              child: FlatButton(
+                                onPressed: () {
+                                  setState(() {
+                                    user = 'teacher';
+                                    futureEmail = getEmail(user);
+                                    futureEmail.then((value){
+                                      setState(() {
+                                        email = value;
+                                        emailController.text = email;
+                                        passwordController.text = password;
+                                      });
+                                    });
+                                  });
+                                },
+                                color: Colors.purpleAccent,
+                                textColor: Colors.white,
+                                child: Text("Teacher",style: Theme.of(context).textTheme.display1.copyWith(color: Colors.white)),
+                              ),
+                            ),
+                            Expanded(
+                              child: FlatButton(
+                                onPressed: () {
+                                  user = 'parent';
+                                  futureEmail = getEmail(user);
+                                  futureEmail.then((value){
+                                    setState(() {
+                                      email = value;
+                                      emailController.text = email;
+                                      passwordController.text = password;
+                                    });
+                                  });
+                                },
+                                color: Colors.purpleAccent,
+                                textColor: Colors.white,
+                                child: Text("Parents",style: Theme.of(context).textTheme.display1.copyWith(color: Colors.white)),
+                              ),
+                            ),
+                          ],
+                        ),
                         Padding(
                           padding: const EdgeInsets.only(bottom: 10.0),
                           child: TextFormField(
